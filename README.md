@@ -10,6 +10,7 @@ windows terminal, WSL Ubuntu:
   
  
 .bashrc - add 'set -o vi'
+.vimrc - *get it*
 
 background cheatsheet: BGInfo config file <save and upload>
 windows terminal config: Save setting file + upload
