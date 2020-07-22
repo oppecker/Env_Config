@@ -23,6 +23,7 @@ windows terminal, WSL Ubuntu:
 .bashrc - add 'set -o vi'
 .vimrc - *get it*
 
-background cheatsheet: BGInfo config file <save and upload>
-windows terminal config: Save setting file + upload
-shortcut to open windows terminal: save and upload
+
+config.bgi : BGInfo 'cheatsheet' background
+settings.config : windows terminal config
+Dev_Alumni_Book.lnk : shortcut to open windows terminal w/ 3 panes
