@@ -23,7 +23,21 @@ windows terminal, WSL Ubuntu:
 .bashrc - add 'set -o vi'
 .vimrc - *get it*
 
-
 config.bgi : BGInfo 'cheatsheet' background
 settings.config : windows terminal config
 Dev_Alumni_Book.lnk : shortcut to open windows terminal w/ 3 panes
+
+#### command cheatsheets ####
+rsync
+-a  --archive  # archive mode
+--max-size <sizek>  # filter out those large log files
+--exclude='regex' # don’t copy what fits the regex
+-n, --dry-run  # perform a trial run with no changes made (SWEEEEET!!!)
+-v, --verbose  # run with dry-run to see the output
+
+Size of all current dir files:
+du -sh *
+du -sh /path/to/file/or/dir/
+
+Check disk space:
+df -H
