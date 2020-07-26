@@ -1,0 +1,7 @@
+PS C:\Users\oppec\Desktop\social_media_app> $profile                                                                                                                                               
+C:\Users\oppec\Documents\PowerShell\Microsoft.PowerShell_profile.ps1                                                                                                                               
+PS C:\Users\oppec\Desktop\social_media_app> vi C:\Users\oppec\Documents\PowerShell\Microsoft.PowerShell_profile.ps1    
+
+profile contents:
+Set-PSReadlineOption -EditMode vi
+Set-PSReadLineOption -ViModeIndicator Prompt
