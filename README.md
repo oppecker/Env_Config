@@ -7,9 +7,11 @@ winscp: https://winscp.net/eng/index.php
 docker: https://www.docker.com/products/docker-desktop
 
 remap keys (WIN 10): https://www.microsoft.com/en-us/download/details.aspx?id=17657
+```
 	rktools - download & install
 	run as admin C:\Program Files (x86)\Windows Resource Kits\Tools\remapkey.exe
 	remap your little heart out!
+```
 
 windows terminal, WSL Ubuntu:
   * Install from windows store.
@@ -19,6 +21,7 @@ settings.config : windows terminal config
 Dev_Alumni_Book.lnk : shortcut to open windows terminal w/ 3 panes
 
 #### command cheatsheets ####
+```
 rsync
 -a  --archive  # archive mode
 --max-size <sizek>  # filter out those large log files
@@ -32,3 +35,4 @@ du -sh /path/to/file/or/dir/
 
 Check disk space:
 df -H
+```
