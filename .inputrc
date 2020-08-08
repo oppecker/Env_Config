@@ -1,7 +1,9 @@
-#file to add indication of vi mode to command prompt
-
 set show-mode-in-prompt on
 # set vi-cmd-mode-string "\1\e[2 q\2"
 # set vi-ins-mode-string "\1\e[6 q\2"
-set vi-cmd-mode-string "<cmd>"
-set vi-ins-mode-string "<ins>"
+# set vi-cmd-mode-string "<cmd>"
+# set vi-ins-mode-string "<ins>"
+#set vi-cmd-mode-string "\1\e[2 q\2<cmd>"
+#set vi-ins-mode-string "\1\e[6 q\2<ins>"
+set vi-cmd-mode-string "\1\e[2 q\e[34m\2<cmd>"
+set vi-ins-mode-string "\1\e[6 q\e[31m\2<ins>"
